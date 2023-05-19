@@ -1,0 +1,198 @@
+
+
+/*Fontes*/
+
+@font-face {
+font-family: "Road Rage"; /*define o nome*/
+src: url("../fontes/RoadRage.woff");  /*Define onde pegar*/
+}
+
+@font-face {
+font-family: "Ancient"; /*define o nome*/
+src: url("../fontes/Ancient-Medium.woff");  /*Define onde pegar*/
+}
+
+@font-face {
+font-family: "Bring"; /*define o nome*/
+src: url("../fontes/BringHeart.woff");  /*Define onde pegar*/
+}
+
+@font-face {
+font-family: "Madelina"; /*define o nome*/
+src: url("../fontes/MadelinaScript.woff");  /*Define onde pegar*/
+}
+	
+
+/* Layout */
+
+html, body, #home {
+	height: 100%;
+	
+}
+
+/* Barra de navegação cabeçalho */
+
+nav.navbar-transparente {
+	
+	background: #D8D8D6;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: rgba(115, 115, 115, 0.6);
+}
+
+.navbar-light .navbar-togler {
+	color: rgba(0, 0, 0, 0.5);
+	border-color: rgba(255, 255, 255, 0.5);
+}
+
+.divisor {
+	width: 1px;
+	background: black;
+	margin: 12px 15px;
+}
+
+
+/* Index */
+
+
+#apresentação {
+	padding: 10px;
+	border-bottom: 1px solid #737373 ;
+	border-top: 1px solid #737373  ;
+
+}
+
+#cursos,#habilidades, #idiomas, #experiencia {
+	padding: 15px 15px;
+	Border-top: 1px solid #737373  ;
+	border-bottom: 1px solid #737373 ;	
+}
+
+/* Apresentação*/
+
+#carta {
+	padding: 50px;
+	background: #F4F3F1;
+
+}
+
+
+
+/* skills */
+
+#skills {
+	padding: 10px;
+	background: #F4F3F1;
+	
+}
+
+.caixa {
+	padding: 10px;
+
+}
+
+
+
+.fotos {
+	padding: 10px;
+	background: white;
+}
+
+
+
+
+/* Rodapé */
+
+footer {
+	background: #D8D8D6;
+	padding: 5px;
+	
+}
+
+
+footer a {
+	float: right;
+}
+
+footer a:hover {
+	color: rgba(115, 115, 115, 0.6);
+	text-decoration: none;
+}
+
+#assinatura {
+	font-family: "Bring";
+	font-size: 4em;
+}
+
+
+
+
+
+/* Dimecional responsivo*/
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+	header h2 {
+			font-size: 2.1em;
+		}		
+	
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+	header h2 {
+			font-size: 2.1em;
+		}
+
+ }
+
+
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	header h2 {
+		font-size: 1.2em;
+	}
+
+	#assinatura h3  {
+		font-size: 0.5em;
+	}
+
+
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	
+	header h2 {
+		font-size: 2.4em;
+	}
+
+	#assinatura h3  {
+		font-size: 0.9em;
+	}
+
+	
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+	
+	header h2 {
+		font-size: 3.5em;
+	}
+
+	#assinatura h3  {
+		font-size: 1.1em;
+	}
+}
+
