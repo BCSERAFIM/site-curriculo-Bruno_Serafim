@@ -1,8 +1,13 @@
 # site-curriculo-Bruno_Serafim
 Projeto Currículo Bruno Cesar Serafim
-# Bruno Cesar Serafim
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+[![Licença](https://img.shields.io/github/license/BCSERAFIM/site-curriculo-Bruno_Serafim)](https://github.com/BCSERAFIM/site-curriculo-Bruno_Serafim/blob/main/LICENSE)
+
+
+[Visite o site](http://bcserafim.infinityfreeapp.com/)
+
+# Bruno Cesar Serafim
 
 Este é o repositório do projeto pessoal de Bruno Cesar Serafim. Aqui você encontrará informações sobre suas habilidades, formação acadêmica, certificados, idiomas e experiência profissional.
 
