@@ -67,6 +67,10 @@ nav.navbar-transparente {
 
 }
 
+#apresentação a {
+	color: black;
+}
+
 #cursos,#habilidades, #idiomas, #experiencia {
 	padding: 15px 15px;
 	Border-top: 1px solid #737373  ;
@@ -81,6 +85,11 @@ nav.navbar-transparente {
 
 }
 
+
+.paragrafo-justificado {
+  text-align: justify;
+  
+}
 
 
 /* skills */
@@ -104,7 +113,16 @@ nav.navbar-transparente {
 }
 
 
+/* portifolio */
 
+.card {
+
+	
+	/*
+	width: 1000px;
+	height: 500px;
+*/
+}
 
 /* Rodapé */
 
